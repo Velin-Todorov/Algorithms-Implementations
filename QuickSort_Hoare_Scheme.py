@@ -34,7 +34,7 @@ def quickSort(arr, low, high):
         quickSort(arr, pivot + 1, high)
 
 
-array = [10, 11, 12, 14, 15, 20, 19, 30, 1, 2, 7]
+array = [30, 10, 11, 12, 14, 15, 20, 19, 30, 1, 2, 7]
 l = 0
 h = len(array) - 1
 
